@@ -16,7 +16,7 @@ Projeto feito como desafio para a empresa Ekan.
 
 Primeiramente clone o projeto
 
-use git clone ********
+use git clone https://github.com/Luizfelipelacerda/ApiBeneficiario.git
 
 então abra o projeto na sua IDE de preferencia (no meu caso usei o Intellij).
 
