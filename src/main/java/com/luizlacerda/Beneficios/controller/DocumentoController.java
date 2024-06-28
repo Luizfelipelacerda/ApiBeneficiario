@@ -2,7 +2,7 @@ package com.luizlacerda.Beneficios.controller;
 
 import com.luizlacerda.Beneficios.controller.dto.DocumentoReturnDTO;
 import com.luizlacerda.Beneficios.entities.Documento;
-import com.luizlacerda.Beneficios.service.DocumentoService;
+import com.luizlacerda.Beneficios.service.DocumentoServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.util.UUID;
 @RequestMapping("/Documento")
 public class DocumentoController {
 
-    private final DocumentoService documentoService;
+    private final DocumentoServiceImpl documentoService;
 
     @PostMapping("/{idBeneficiario}")
     @Operation(summary = "Find", description = "Busca uma lista de Documentos apartir do id do Beneficiario", tags = "Documento")
